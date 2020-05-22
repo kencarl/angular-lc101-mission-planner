@@ -1,0 +1,6 @@
+.crew-title{
+    color: blue;
+}
+.crew-title:hover{
+    color: red;
+}

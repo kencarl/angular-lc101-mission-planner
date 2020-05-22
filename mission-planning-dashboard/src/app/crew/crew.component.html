@@ -1,6 +1,5 @@
-<h3>Crew</h3>
+<h3 class ="crew-title">Crew</h3>
 <ul>
-   <li>Jessica Watkins</li>
-   <li>Raja Chari</li>
-   <li>Jasmin Moghbeli</li>
+   <li *ngFor='let in of counter (crew.length) ;let i = index'>{{crew[i]}}</li>
+   
 </ul>
